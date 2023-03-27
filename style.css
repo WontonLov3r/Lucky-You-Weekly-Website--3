@@ -38,7 +38,9 @@ body, html {
 	padding: 0 20px 15px 20px;
 	border: 1px solid yellow;
   background-color:#41b833;
+  border-radius: 25px;
 }
+
 #signUp legend {
 	font-size: 2em;
 	font-weight: 200;
@@ -87,6 +89,8 @@ body, html {
   top: -30px;
   height: 300px;
   opacity:95%;
+  border-radius: 25px;
+
 }
 
 .fontyes {
