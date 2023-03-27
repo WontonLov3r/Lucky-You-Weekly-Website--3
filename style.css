@@ -13,7 +13,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 40%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -30,4 +30,75 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+#signUp {
+	margin-top: 204px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid yellow;
+  background-color:#41b833;
+}
+#signUp legend {
+	font-size: 2em;
+	font-weight: 200;
+	padding: 0 .2em;
+}
+#signUp label {
+	display: block;
+	padding-top: 1em;
+}
+#signUp label:first-of-type {
+	margin-top: -.9em;
+}
+#nameLabel {
+	margin-top: -1em;
+}
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #a2a50d;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid yellow;
+	margin-top: 15px;
+}
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid yellow;
+	width: 97%;
+}
+.textfield:focus {
+	background: #FBF8D2;
+}
+
+.green-box {
+  position: relative;
+  text-align:center;
+  padding: 18px 0;
+  margin:auto;
+  background: #3b992f;
+  width: 75%;
+  top: -30px;
+  height: 300px;
+  opacity:95%;
+}
+
+.fontyes {
+  font-size:20px;
+  font-weight: bold;
+  
+}
+
+.white {
+  color:white;
+}
+
+.white2 {
+  color:white;
+  font-weight:bold;
 }
